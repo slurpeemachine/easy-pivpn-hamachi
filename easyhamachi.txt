@@ -1,0 +1,10 @@
+sudo wget https://www.vpn.net/installers/logmein-hamachi_2.1.0.203-1_armhf.deb
+sudo dpkg -i logmein-hamachi_2.1.0.203-1_armhf.deb
+sudo hamachi login
+sleep 5s
+sudo hamachi set-nick tvhrosiere
+sleep 5s
+sudo hamachi attach marchionem@gmail.com
+sleep 5s
+sudo update-rc.d logmein-hamachi defaults
+##### 481-575-889
