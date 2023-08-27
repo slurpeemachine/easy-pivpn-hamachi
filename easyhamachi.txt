@@ -1,4 +1,5 @@
 sudo wget https://www.vpn.net/installers/logmein-hamachi_2.1.0.203-1_armhf.deb
+sleep 30s
 sudo dpkg -i logmein-hamachi_2.1.0.203-1_armhf.deb
 sudo hamachi login
 sleep 5s
